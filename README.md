@@ -39,7 +39,15 @@ $ mongoimport --db ny --collection restaurants --file restaurants.json
 # Questions : 
 
 - 1  Write a MongoDB query to display all the documents in the collection restaurants
+```
+db.restaurants.find()
+```
+
 - 2 Write a MongoDB query to display only one document
+```
+db.restaurants.findOne()
+```
+
 - 3 Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine for all the documents in the collection restaurant
 - 4 Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine, but exclude the field _id for all the documents in the collection restaurant
 - 5 Write a MongoDB query to display the fields restaurant_id, name, borough and zip code, but exclude the field _id for all the documents in the collection restaurant
